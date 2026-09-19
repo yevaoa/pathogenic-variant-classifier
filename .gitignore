@@ -1,0 +1,31 @@
+# Data files & large datasets (never upload raw CSVs to Git)
+*.csv
+*.tsv
+*.gz
+*.zip
+*.parquet
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Saved ML Models / Weights
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
+.DS_Store
+Thumbs.db
